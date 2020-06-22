@@ -1,7 +1,10 @@
-def reverse_each_word(string)
-string_reversed = []
-  string.each do |word|
-    string_reversed.push(word.reverse)
+
+
+def reverse_each_word(sentence1)
+sentence1_reversed = []
+sentence1.join(" ")
+  sentence1.each do |word|
+    sentence1_reversed.push(word.reverse)
   end
-  string_reversed
+  sentence1_reversed
 end
