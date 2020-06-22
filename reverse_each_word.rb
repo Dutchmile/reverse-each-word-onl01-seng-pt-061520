@@ -8,3 +8,10 @@ array_sentence1 = sentence1.split(" ")
   end
   return sentence1_reversed.join(" ")
 end
+
+def reverse_each_word(sentence2)
+  array_sentence2 = sentence2.split(" ")
+  array_sentence2.collect do |word|
+    word.reverse
+  end
+end
