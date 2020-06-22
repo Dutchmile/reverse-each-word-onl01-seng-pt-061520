@@ -8,7 +8,7 @@ array_sentence2 = sentence2.split(" ")
   # array_sentence1.each do |word|
     # sentence1_reversed.push(word.reverse)
   # end
-  array.sentence2.collect do |word|
+  array_sentence2.collect do |word|
     sentence2_reversed << word.reverse
   end
   sentence2_reversed.join(" ")
